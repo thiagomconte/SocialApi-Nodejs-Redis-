@@ -1,0 +1,26 @@
+{
+  "name": "projsocial",
+  "version": "1.0.0",
+  "description": "Projeto de rede social",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "author": "Thiago Marques Conte",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.2",
+    "express-session": "^1.17.1",
+    "flash": "^1.1.0",
+    "handlebars": "^4.5.3",
+    "mongoose": "^5.9.24",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "redis": "^3.0.2"
+  }
+}

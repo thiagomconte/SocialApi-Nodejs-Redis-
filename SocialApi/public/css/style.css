@@ -1,0 +1,30 @@
+#mainbody{
+    background-color:black;
+    font-weight: bold;
+    color:white;
+}
+
+#body{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+   }
+
+#forms{
+    color:white;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+#postagem{
+    width: 100%;
+}
+
+#card{
+    background-color:black;
+    border-color:white;
+    margin-top: 1rem;
+}
+

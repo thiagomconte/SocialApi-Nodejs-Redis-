@@ -1,0 +1,12 @@
+<h3>Nome: {{userF.name}}</h3>
+<h3>email: {{userF.email}}</h3>
+<ul>
+    {{#each userF.subscriptions}}
+    <li>{{.}}</li>
+    {{/each}}
+</ul>
+{{#unless igual}}
+<form action="/user/subscribe" method="post">
+    <input type="hidden" name="email" value="{{userF.email}}">
+<button type="submit" class="btn btn-danger">Subscribe</button></form>
+{{/unless}}

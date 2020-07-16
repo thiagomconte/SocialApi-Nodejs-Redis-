@@ -1,0 +1,14 @@
+<form action="/user/publicacao" method="post">
+  <h3>Plubish something here:</h3>
+  <textarea name="publicacao" id="postagem" rows="5"></textarea>
+  <button type="submit" class="btn btn-outline-danger">Publicar</button>
+</form>
+
+<h3 class="mt-4">Your follows messages</h3>
+{{#each publicacoes}}
+<div class="card" id="card">
+    <h4 class="ml-1">{{name}}</h4>
+  <p class="ml-2">{{texto}}</p>
+</div>
+
+{{/each}}

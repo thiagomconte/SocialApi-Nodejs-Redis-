@@ -1,0 +1,12 @@
+<h4>Resultados:</h4>
+{{#if users}}
+
+<ul>
+  {{#each users}}
+  <li><a href="/user/perfil/{{_id}}">{{email}}</a></li>
+  {{/each}}
+</ul>
+
+{{else}}
+<p>No user found</p>
+{{/if}}
