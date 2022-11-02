@@ -10,7 +10,6 @@ const userRoute = require('./routes/userRoute')
 require('./config/auth')(passport)
 require('./config/db');
 
-
 const app = express();
 
 app.engine('html', handlebars({ defaultLayout: "main", extname: ".html" }))
